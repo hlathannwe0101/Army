@@ -1,0 +1,460 @@
+body{
+    font-family:Helvetica, Arial, sans-serif;
+    margin:auto;
+}
+
+.background{
+    background-image: url("images/Screenshot\ 2025-11-14\ 192004.png");
+    background-size: contain;
+    background-repeat: no repeat;
+    height:auto;
+}
+/* Header */
+.bg-white{
+    background-color: white;
+    width:auto;
+    height:20vh;
+}
+
+.mg-left{
+    padding-left:60%;
+    margin-top:-120px;
+}
+.img-center{
+    text-align:center;
+    padding-top:30px;
+}
+
+/* Navbar */
+nav ul li{
+    list-style:none;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
+    padding:25px;
+    font-size:18px;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav{
+    background-color: rgba(22, 22, 211, 0.863);
+    padding:1px;
+}
+.active{
+    color:red;
+}
+/* The Army */
+.The-army{
+    padding:30px;
+    margin:30px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+}
+
+/* Lastest News */
+.news{
+    margin-top: 60px;
+    text-align:center;
+}
+.first-row,.second-row,.third-row,.fourth-row,.fifth-row{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    overflow: hidden;
+    padding-top:20px;
+}
+.buttom{
+    width: 33.33%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.card{
+    width: 100%;
+    height:40vh;
+}
+.card-image{
+    width: 100%;
+    height: 250px;
+}
+
+.fa-eye{
+   padding-top: 10px; 
+   padding-left:15px;
+}
+.fa-heart{
+    padding-left: 260px;
+}
+.contact{
+    margin-top:20px;
+}
+.container{
+    justify-content: center;
+    margin: 20px 400px;
+    
+}
+
+/* Statements */
+.Statements{
+    margin-top:80px;
+    text-align:center;
+}
+/* media query  */
+ @media(max-width:1000px) {
+  .container2 {
+    margin: 10px 20px !important;
+  }
+}
+
+@media(max-width:430px){
+    .container2  {
+    margin: 10px 10px !important;
+  }
+  .first-row{
+    display: block;
+  }
+  .buttom{
+    width: 100% !important;
+  }
+}
+
+@media(max-width:380px){
+
+}
+/* Card */
+.Row,.Row2,.Row3,.Row4,.Row5{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    overflow: hidden;
+    padding:10px; 
+}
+.container2{
+    justify-content: center;
+    margin: 20px 400px;
+}
+.Im{
+    background-image: url("images/statement3.jpg");
+    background-size: cover;
+    height:280px;
+}
+
+.first-image{
+    background-image: url("images/ရက္ခိုင်အမျိုးသားအဖွဲ့ချုပ်\ ၁.png");
+    background-size: cover;
+    height:280px; 
+}
+.icon{
+    padding-top:230px;
+    color:white;
+}
+/* FPNCC Members */
+.FPNCC{
+    margin-top:80px;
+    text-align:center;
+}
+.img{
+    display:flex;
+    Justify-content:center;
+    gap:150px;
+    padding-top:20px;
+}
+h4{
+    padding-left:30px;
+}
+/* Foooter-background */
+.footer-bg{
+   background-color: blue;
+   text-align: center;
+   padding:15px;
+}
+.margin-top{
+    margin-top:30px;
+}
+
+
+/* media query  */
+ @media(max-width:1000px) {
+  .container {
+    margin: 10px 20px !important;
+  }
+}
+
+@media(max-width:430px){
+    .container {
+    margin: 10px 10px !important;
+  }
+  .first-row{
+    display: block;
+  }
+  .buttom{
+    width: 100% !important;
+  }
+}
+
+@media(max-width:380px){
+
+}
+
+/* STATEMENTS */
+/* media query  */
+ @media(max-width:1000px) {
+  .container3 {
+    margin: 10px 20px !important;
+  }
+}
+
+@media(max-width:430px){
+    .container3  {
+    margin: 10px 10px !important;
+  }
+  .first-row{
+    display: block;
+  }
+  .buttom{
+    width: 100% !important;
+  }
+}
+
+@media(max-width:380px){
+
+}
+.photo{
+    background-image: url("images/မိုင်းအန္တရာယ်-.png");
+    background-size: cover;
+    width:100%;
+    height:300px;
+}
+.photo1{
+    background-image: url("images/statement3.jpg");
+    background-size: cover;
+    width:100%;
+    height:300px;
+}
+.photo3{
+   background-image: url("images/လေကြောင်း၊ရေကြောင်း-.jpg");
+    background-size: cover;
+    width:100%;
+    height:300px; 
+}
+.text{
+    margin-top:-50px;
+    color:white;
+}
+.text1{
+    margin-top:-90px;
+    color:white;
+}
+.container3{
+    justify-content: center;
+    margin: 60px 400px;
+}
+.p1{
+    background-image:url("images/statement3.jpg");
+    background-size: cover;
+    width:100%;
+    height:300px;
+}
+.p2{
+    background-image:url("images/18\ 211419--.png");
+    background-size: cover;
+    width:100%;
+    height:300px; 
+}
+.p3{
+    background-image:url("images/statement3.jpg");
+    background-size: cover;
+    width:100%;
+    height:300px;  
+}
+.p4{
+    background-image:url("images/18\ 211852-.png");
+    background-size: cover;
+    width:100%;
+    height:300px;   
+}
+.p5,.p6{
+    background-image:url("images/ပျက်စီးမှုစရင်း-.png");
+    background-size: cover;
+    width:100%;
+    height:300px;     
+}
+/* About Us */
+.word{
+    margin:400px;
+    margin-top:0px;
+    line-height: 40px;
+    font-size: 18px;
+}
+/* FPNCC Members */
+.bg-gray{
+    background-color:rgba(128, 128, 128, 0.527);
+    width:60%;
+    height:80vh;
+    margin-left:21%;
+    margin-top:-28px;
+}
+.first-container{
+    display:flex;
+}
+.second-container{
+    display:flex;
+    margin-top:-30px;
+}
+
+.CARD{
+    background-color: white;
+    width:45%;
+    height:25vh;
+    padding-top: 20px;
+    padding-left:20px;
+    line-height:20px;
+    margin-left:20px;
+    margin-top:60px;
+}
+.g4{
+    width:40px;
+    height:40px;
+    border-radius:40px;
+}
+.text2{
+    line-height:10px;
+    margin-left:50px;
+    margin-top:-50px;
+    font-size: 12px;
+}
+.icon-black{
+    color:black;
+    
+}
+.row{
+    display:flex;
+}
+.pho{
+    width:80px;
+    height:100px;
+    margin-right:30px;
+}
+.pho1{
+    width:80px;
+    height:100px;
+    margin-left:100px;
+}
+.CARD1{
+    background-color: white;
+    width:45%;
+    height:25vh;
+    padding-top: 20px;
+    padding-left:20px;
+    line-height:20px;
+    margin-left:30px;
+    margin-top:60px;
+}
+.margin-top1{
+    margin-top:0px;
+}
+/* Contact Us */
+.Name{
+    border:1px solid black;
+    border-radius:3px;
+    width: 30%;
+    margin-left: 21%;
+    padding:10px;
+    border-radius: 6px;
+}
+.center{
+    margin-left:45%;
+}
+.Text{
+    margin-top:80px;
+}
+.submit{
+    width:31%;
+    margin-left:21%;
+    background-color:blue;
+    padding:10px;
+    border-radius: 8px;
+}
+.margin-left{
+    margin-left:55%;
+    margin-top:-15%;
+    line-height:40px;
+}
+.margin-top2{
+    margin-top:20%;
+}
+
+/* home1 */
+.Main{
+    border:1px solid gray;
+    width:60%;
+    height:320vh;
+    margin-left:21%;
+    margin-top:20px;
+}
+.month{
+    margin-left:100px;
+    margin-top:80px;
+}
+.fa-list{
+    margin-left:78%;
+}
+.Icons{
+    padding-top:30px;
+    padding-left:20px;
+   
+}
+.Recent{
+     margin-left:21%;
+     margin-top:50px;
+}
+
+.Recent1{
+    border:1px solid black;
+    border-radius:3px;
+    width: 30%;
+    margin-right: 21%;
+    padding:10px;
+    border-radius: 6px;
+}
+.none{
+   text-decoration:none;
+   color:black;
+}
+a:hover{
+    color:rgb(192, 243, 52);
+}
+/* press-briefing1 */
+.Main1{
+    border:1px solid gray;
+    width:60%;
+    height:115vh;
+    margin-left:21%;
+    margin-top:20px;
+}
+video{
+    width: 900px;
+    height: 700px;
+    margin-top:-40px;
+}
+.Main2{
+    border:1px solid gray;
+    width:60%;
+    height:235vh;
+    margin-left:21%;
+    margin-top:20px;
+}
+/* .month{
+    margin-left:100px;
+    margin-top:80px;
+} */
+.PHOTO{
+    padding-left:180px;
+}
+
+
